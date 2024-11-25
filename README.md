@@ -1,33 +1,24 @@
 # 2024-GenAI-Tutor-Bootcamp
-### AI Tutor Bootcamp Syllabus
+## AI Tutor Bootcamp Syllabus
 
-#### **Introducing the Course Syllabus**
+### **Introducing the Course Syllabus**
 
 This syllabus outlines the structure, content, and expectations for the 10-week AI Tutor Bootcamp. The course aims to empower university students with the knowledge and skills to build their own AI Tutor applications using cutting-edge Generative AI technology. Participants will engage in hands-on activities, receive guidance from experienced professionals, and collaborate in a global team setting.
 
-#### **Who Are We and What Qualifies Us to Teach and Mentor?**
+#### **Who Are We?**
 
 ##### Instructor
 
-*   **Alwin Lin**: As the Founder of CS Equity AI, since 2021, he has lead bootcamps ranging from Cloud Computing, Application of Artifical Intelegence, as well as Introduction and implementation of Generative AI
+*   **Alwin Lin**:  Alwin, the Founder of CS Equity AI, since 2021, he has lead bootcamps ranging from Cloud Computing, Application of Artifical Intelegence, as well as Introduction and implementation of Generative AI
 
 ##### Lead Coach
 
 *   **Sam Lin**: Sam, the Automotive Services XPA Tech Lead at Google, will be the lead coach, leveraging his industry experience to guide students.
 
-##### Mentors
+##### Lead Mentor
 
 *   **Li-Ta Hsu**:  Li-Ta, an Associate Professor at Hong Kong Polytechnic University, brings academic expertise and experience to the mentorship role.
-*   **Ellen (Wen-Hsing) Chang**: A Senior Technical Program Manager at Google, Ellen will provide mentorship in her area of expertise.
-*   **Nick Yeh**: As a UX Manager/Lead at Google, Nick will contribute his expertise in user experience design to the mentorship program.
-*   **Gary Ni**: Gary, a Senior Technical Program Manager at Google, will offer his technical expertise and mentorship to students.
-*   **Irene Chung**: Irene, a Web Solutions Engineer at Google, will provide mentorship in web development and related technologies.
 
-##### Coach
-
-*   **Aaron Holden**: Aaron, a Senior Software Engineer at Google, will serve as a coach, supporting student teams in their project development.
-
-In addition to the core team, the course will feature guest speakers from various fields and volunteers to assist with logistics and coordination.
 
 #### **Why Are You Here? Generative AI Expertise Awaits!**
 
@@ -89,21 +80,16 @@ The bootcamp is structured into three distinct phases, each focusing on differen
 
 While the course provides comprehensive instruction, the following optional resources can enhance your understanding:
 
-##### Papers: Exploring AI's Role in Education
+##### Documentation:
 
-*   **Teaching CS50 with AI: Leveraging Generative Artificial Intelligence in Computer Science Education** by Rongxin Liu, et al.: This paper provides insights into how Harvard's CS50 course integrated AI tools, including the CS50 Duck, to enhance student learning and support.
-*   **Research Papers on Advanced RAG Techniques**:  Explore recent research on GraphRAG, reflectors, and medprompts to gain a deeper understanding of their applications and limitations.
+*   **GitHub Documentation**: How to [create a Github account](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github), and how to [make pull request](https://docs.github.com/en/get-started/start-your-journey/hello-world)
+*   **[Google Cloud Platform Documentation](https://cloud.google.com/docs)**: Dive deeper into the Gemini API and ChromaDB documentation to leverage their functionalities in your project.
+*   **Google Colab 101**: For anyone new to using Google Colab, know it's [features](https://colab.research.google.com/notebooks/basic_features_overview.ipynb), [markdown](https://colab.research.google.com/notebooks/markdown_guide.ipynb), and [Intergration with Github](https://colab.research.google.com/github/googlecolab/colabtools/blob/main/notebooks/colab-github-demo.ipynb)
 
-##### Documentation: Mastering the Tools of the Trade
+##### Additional Resources:
 
-*   **GitHub Documentation**: Learn how to effectively use GitHub for version control, collaboration, and project management, which is essential for the course.
-*   **Google Cloud Platform Documentation**: Dive deeper into the Gemini API and ChromaDB documentation to leverage their functionalities in your project.
-*   **Streamlit Documentation**: Explore Streamlit, a framework for building interactive web applications, for potential use in presenting or deploying your AI Tutor.
-*   **Python Libraries Documentation**: Familiarize yourself with the documentation of Python libraries used in the course, such as `pypdf`, `google-generativeai`, and `chromadb`, to gain a comprehensive understanding of their capabilities.
-
-##### Additional Resources: Expanding Your Horizons
-
-*   **HarvardX: CS50's Introduction to Artificial Intelligence with Python**: This course provides a solid foundation in AI concepts and programming using Python.
-*   **CS50x Workshop on AI**: Access the slides and GitHub repository of the CS50x AI Workshop for additional insights and practical examples.
+*   **[Teaching CS50 with AI: Leveraging Generative Artificial Intelligence in Computer Science Education](https://cs.harvard.edu/malan/publications/V1fp0567-liu.pdf)** by Rongxin Liu, et al.: This paper provides insights into how Harvard's CS50 course integrated AI tools, including the CS50 Duck, to enhance student learning and support.
+*   **Research Papers on Advanced RAG Techniques**:  Explore recent updates on [GraphRAG](https://github.com/microsoft/graphrag), [reflectors](https://blog.langchain.dev/reflection-agents/), and [medprompts](https://arxiv.org/pdf/2311.16452) to gain a deeper understanding of their applications and limitations.
+*   **[CS50x Workshop on AI](https://www.youtube.com/watch?v=d3Hl4Xv6vNE)**: Access the slides and GitHub repository of the CS50x AI Workshop for additional insights and practical examples.
 
 By exploring these optional resources, you can deepen your understanding of AI concepts, Gemini's capabilities, RAG system implementation, and the broader landscape of AI in education. They can also provide inspiration for your AI Tutor project and future endeavors in this exciting field.
