@@ -30,6 +30,28 @@ Before Week 1, complete these steps to ensure you’re ready:
 - **2nd Absence**: Accepted for health or unavoidable circumstances. Inform your team lead and lecturer at least three days in advance.
 - **Beyond 2 Absences**: If you miss more than 2 classes, your participation may be affected, and you will not be eligible for a certificate. Recordings will be available for missed sessions.
 
+## **Team project**
+- You will join the team of 5 assigned to you as this sheet: [Todo: Sheet].
+- You will be a good team player & actively contribute to land the team project.
+## **Final Presentation**
+- Attendance at the final presentation on **March 1st** is mandatory.
+- The Showcase is where you and your fellow classmates will present your work. This session is essential for your completion of the program and is the only class with a mandatory attendance requirement.
+
+## **Google Group**
+- To help you stay connected and collaborate effectively with your fellow students, we have created a Google Group:AI Tutor Bootcamp Winter 2025. This platform will be essential for:
+   - Team communication and collaboration on group projects.
+   - Updates and important announcements about the course.
+   - Asking questions and discussing course materials with peers and instructors.
+  
+This group will be the central place for communication, and we expect all students to actively participate in discussions, share resources, and engage with their team members through this platform.
+## **Technical Requirements**
+
+Ensure that you have the following
+- A computer with a browser
+- Stable internet connection and the necessary equipment to participate in the course (e.g., computer, microphone, camera).
+- Gmail Account
+- Github Account
+
 
 ## **Weekly Topics & Materials**
 
