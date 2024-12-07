@@ -96,18 +96,11 @@ There will be a brief office hour after Week 1 to address any outstanding techni
 **8. What are the system requirements?**  
 Any computer with a browser and WiFi should be sufficient.
 
-**9. How will we be graded or evaluated?**  
-Evaluation criteria are TBD.
-
-**10. What happens during the Week 10 Showcase?**  
+**9. What happens during the Week 10 Showcase?**  
 Your coaches and mentor will attend, and the event will be open to the public.
 
-**11. Can I work with others?**  
+**10. Can I work with others?**  
 Yes, you will work in a group of 4–5 people, and teamwork is encouraged.
-
-**12. Will there be ongoing support after the bootcamp?**  
-Ongoing support is not planned.
-
 
 ## **Support Team**
 
