@@ -51,7 +51,7 @@ Ensure that you have the following
 
 Click on the links to access the slides and resources for each week. All materials will be available on GitHub.
 
-- **Week 1**: [Orientation & Introduction to Prompt Engineering]([#](https://github.com/CSEquityAI/2024-GenAI-Tutor-Bootcamp/tree/main/coursePowerPoint))  
+- **Week 1**: [Orientation & Introduction to Prompt Engineering](https://github.com/CSEquityAI/2024-GenAI-Tutor-Bootcamp/tree/main/coursePowerPoint)
 - **Week 2**: [Effective Prompting for Tutor Bots](#)  
 - **Week 3**: [Introduction to Ducky AI & Gemini](#)  
 - **Week 4**: [Gemini API Labs & Setting up for Interactions](#)  
