@@ -7,7 +7,7 @@ Welcome to the 10-week bootcamp where you'll create AI Tutor applications using 
 
 ## **Getting Started: Essential Setup**
 
-Before Week 1, complete these steps to ensure you’re ready:
+Before Week 2, complete these steps to ensure you’re ready:
 
 1. **GitHub**:
    - [Create a GitHub account](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github).
@@ -22,21 +22,16 @@ Before Week 1, complete these steps to ensure you’re ready:
    - Learn [markdown basics](https://colab.research.google.com/notebooks/markdown_guide.ipynb).
    - Practice [GitHub integration](https://colab.research.google.com/github/googlecolab/colabtools/blob/main/notebooks/colab-github-demo.ipynb).
 
-
-
 ## **Attendance Policy**
-
 - **1 Absence**: You are allowed one absence for personal reasons (e.g., schoolwork or unforeseen commitments). Inform your team lead and lecturer at least **three days in advance** via email at [csquityai@gmail.com](mailto:csquityai@gmail.com).
 - **2nd Absence**: Accepted for health or unavoidable circumstances. Inform your team lead and lecturer at least three days in advance.
 - **Beyond 2 Absences**: If you miss more than 2 classes, your participation may be affected, and you will not be eligible for a certificate. Recordings will be available for missed sessions.
-
 ## **Team project**
-- You will join the team of 5 assigned to you as this sheet: [Todo: Sheet].
+- You will join the team of 5 assigned to you as this [Sheet](https://docs.google.com/spreadsheets/d/1zJ3A5tGGAmGDG4lIuX0zJPSKwJSySWqSH7619fxG-60/edit?gid=2089701332#gid=2089701332)
 - You will be a good team player & actively contribute to land the team project.
 ## **Final Presentation**
 - Attendance at the final presentation on **March 1st** is mandatory.
 - The Showcase is where you and your fellow classmates will present your work. This session is essential for your completion of the program and is the only class with a mandatory attendance requirement.
-
 ## **Google Group**
 - To help you stay connected and collaborate effectively with your fellow students, we have created a Google Group:AI Tutor Bootcamp Winter 2025. This platform will be essential for:
    - Team communication and collaboration on group projects.
