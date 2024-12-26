@@ -1,4 +1,4 @@
-# AI Tutor Bootcamp 2024
+# AI Tutor Bootcamp 2025
 
 ## **Build Your Own AI Tutor**
 #### [Find your assigned team](https://docs.google.com/spreadsheets/d/1zJ3A5tGGAmGDG4lIuX0zJPSKwJSySWqSH7619fxG-60/edit?gid=2089701332#gid=2089701332)
