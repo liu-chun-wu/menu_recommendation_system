@@ -1,0 +1,49 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and debug files
+*.log
+*.out
+*.err
+.gradio
+
+# Dataset or large files
+data/
+*.csv
+*.tsv
+*.json
+
+# Machine learning models
+models/
+*.ckpt
+*.h5
+*.pth
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+.DS_Store
+
+# Secrets or environment variables
+.env
+*.key
+*.pem
+
+# Node.js related (if you use a frontend)
+node_modules/
+dist/
+
+# IDE/Editor specific
+.vscode/
+.idea/
+*.iml
