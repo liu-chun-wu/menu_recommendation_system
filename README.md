@@ -61,7 +61,7 @@ Click on the links to access the slides and resources for each week. All materia
    - [Week 4 video](https://drive.google.com/file/d/1JBWOaBifOkMvDmUs8TyxOlKGBsX-_vAh/view?usp=sharing)
 - **Week 5**: [Vector Embedding and Semantic Retrieval](https://github.com/CSEquityAI/GenAI-Tutor-Bootcamp-2025/blob/main/coursePowerPoint/Week-5-Setting-up-and-basic-interactions.pdf)
    - [Week 5 video](https://drive.google.com/file/d/1n-tOStfWyqrWX2L6DspJ5u_sMQZUQlik/view?usp=sharing)
-- **Week 6**: [Advanced RAG Techniques](https://github.com/CSEquityAI/GenAI-Tutor-Bootcamp-2025/blob/main/coursePowerPoint/Week-6-Recap-buffer.pdf)
+- **Week 6**: [Buffering](https://github.com/CSEquityAI/GenAI-Tutor-Bootcamp-2025/blob/main/coursePowerPoint/Week-6-Recap-buffer.pdf)
    - [Week 6 video](https://drive.google.com/file/d/1xIbp3LLZQETOkyaSmoX0qykLKLSq8kA2/view?usp=sharing)  
 - **Week 7**: [Building the AI Tutor Core](#)  
 - **Week 8**: [Testing and Evaluation](#)  
