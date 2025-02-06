@@ -1,6 +1,8 @@
 # AI Tutor Bootcamp 2025
 
 ## **Build Your Own AI Tutor**
+This course is inspired by Hardford CS50 paper, [Teaching CS 50 with AI](https://cs.harvard.edu/malan/publications/V1fp0567-liu.pdf). 
+[Try the CS50 ducky bot](https://cs50.ai/chat)
 #### [Find your assigned team](https://docs.google.com/spreadsheets/d/1zJ3A5tGGAmGDG4lIuX0zJPSKwJSySWqSH7619fxG-60/edit?gid=2089701332#gid=2089701332)
 Welcome to the 10-week bootcamp where you'll create AI Tutor applications using cutting-edge Generative AI technology. Let’s get started!
 
