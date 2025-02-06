@@ -28,6 +28,12 @@ Before Week 2, complete these steps to ensure you’re ready:
 ## **Team project**
 - You will join the team of 5 assigned to you as this [Sheet](https://docs.google.com/spreadsheets/d/1zJ3A5tGGAmGDG4lIuX0zJPSKwJSySWqSH7619fxG-60/edit?gid=2089701332#gid=2089701332)
 - You will be a good team player & actively contribute to land the team project.
+##**Midterms**
+- You will be required to finish up the todos in the [codlab](https://github.com/CSEquityAI/GenAI-Tutor-Bootcamp-2025/blob/main/ragStudentToDo.ipynb), and ensure the program runs without error
+   - ToDos are as follows:
+      - Implement text splitting
+      - Connect LLM with ChromaDB
+      - Prompt Construction
 ## **Final Presentation**
 - Attendance at the final presentation on **March 1st** is mandatory.
 - The Showcase is where you and your fellow classmates will present your work. This session is essential for your completion of the program and is the only class with a mandatory attendance requirement.
