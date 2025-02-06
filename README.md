@@ -69,14 +69,20 @@ Click on the links to access the slides and resources for each week. All materia
    - [Week 4 video](https://drive.google.com/file/d/1JBWOaBifOkMvDmUs8TyxOlKGBsX-_vAh/view?usp=sharing)
 - **Week 5**: [Vector Embedding and Semantic Retrieval](https://github.com/CSEquityAI/GenAI-Tutor-Bootcamp-2025/blob/main/coursePowerPoint/Week-5-Setting-up-and-basic-interactions.pdf)
    - [Week 5 video](https://drive.google.com/file/d/1n-tOStfWyqrWX2L6DspJ5u_sMQZUQlik/view?usp=sharing)
-- **Week 6**: [Buffering](https://github.com/CSEquityAI/GenAI-Tutor-Bootcamp-2025/blob/main/coursePowerPoint/Week-6-Recap-buffer.pdf)
+- **Week 6**: [Buffer and Recap](https://github.com/CSEquityAI/GenAI-Tutor-Bootcamp-2025/blob/main/coursePowerPoint/Week-6-Recap-buffer.pdf)
    - [Week 6 video](https://drive.google.com/file/d/1xIbp3LLZQETOkyaSmoX0qykLKLSq8kA2/view?usp=sharing)  
 - **Week 7**: [Building the AI Tutor Core](#)  
 - **Week 8**: [Testing and Evaluation](#)  
 - **Week 9**: [Deployment and Scalability](#)  
 - **Week 10**: [Showcase and Presentations](#)  
 
-
+## Additional Resource / Refrence Materials
+- [Teaching CS 50 with AI](https://cs.harvard.edu/malan/publications/V1fp0567-liu.pdf). 
+- [CS50 ducky bot](https://cs50.ai/chat)
+- [Streamlit UI](https://docs.streamlit.io/get-started/fundamentals/main-concepts)
+- [Gemini Documentations](https://ai.google.dev/gemini-api/docs/quickstart?lang=python)
+- [ChromaDB](https://docs.trychroma.com/docs/overview/getting-started)
+- [Eval with RAGAS](https://docs.ragas.io/en/stable/getstarted/evals/)
 
 ## **FAQs**
 
@@ -111,7 +117,6 @@ Your coaches and mentor will attend, and the event will be open to the public.
 Yes, you will work in a group of 4–5 people, and teamwork is encouraged.
 
 ## **Support Team**
-
 - **Instructor**: Alwin Lin, Founder, CS Equity AI  
 - **Lead Coach**: Sam Lin, Tech Lead, Google  
 - **Lead Mentor**: Li-Ta Hsu, Associate Professor, Hong Kong Polytechnic University  
