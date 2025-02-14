@@ -100,7 +100,7 @@ Recordings will be available for you to catch up.
 Basic Python syntax knowledge is sufficient.
 
 **5. How do I notify about absences?**  
-Email [csquityai@gmail.com](mailto:csquityai@gmail.com) at least three days in advance.
+Email [csequityai@gmail.com](mailto:csqeuityai@gmail.com) at least three days in advance.
 
 **6. Can I still access materials if I miss more than 2 sessions?**  
 Yes, you will have access to all materials.
