@@ -35,7 +35,7 @@ models/
 .DS_Store
 
 # Secrets or environment variables
-.env
+*.env
 *.key
 *.pem
 
