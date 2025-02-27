@@ -50,3 +50,7 @@ chroma_db/
 .idea/
 *.iml
 
+*.pdf
+*.jpg
+*.png
+

@@ -12,6 +12,10 @@ from chromadb.utils.embedding_functions import EmbeddingFunction
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 
+import filetype
+
+import ocr
+
 
 # Download PDF and Extract text from PDF
 def download_pdf(url, save_path):
@@ -183,13 +187,30 @@ def generate_answer(prompt: str):
 
 
 # 從 PDF 文件提取文本，分割文本為小塊，並更新 ChromaDB 集合。
-def add_document_to_db(client, db_name, file_path):
+def add_document_to_db_PDF(client, db_name, file_path):
     """
     :param db_path: ChromaDB 資料庫的路徑 (string)
     :param db_name: 要更新的 ChromaDB 集合名稱 (string)
     :param file_path: PDF 文件的路徑
     """
     pdf_text = extract_text_from_pdf_file_path(file_path)
+
+    # Split text into chunks
+    chunked_text = split_text(pdf_text)
+
+    update_chroma_db(client, db_name, chunked_text)
+
+    print(f"{db_name} is updated")
+
+
+# 從 PDF 文件提取文本，分割文本為小塊，並更新 ChromaDB 集合。
+def add_document_to_db_PICTURE(client, db_name, file_path):
+    """
+    :param db_path: ChromaDB 資料庫的路徑 (string)
+    :param db_name: 要更新的 ChromaDB 集合名稱 (string)
+    :param file_path: PDF 文件的路徑
+    """
+    pdf_text = ocr.ocr_api(file_path)
 
     # Split text into chunks
     chunked_text = split_text(pdf_text)
@@ -272,6 +293,18 @@ def respond(input_text, history):
     return "", history  # 返回清空的輸入框和新的聊天歷史
 
 
+def get_file_type(file_path):
+    kind = filetype.guess(file_path)
+    if kind is None:
+        return "unknown"
+
+    if kind.mime.startswith("image"):
+        return "image"
+    elif kind.mime == "application/pdf":
+        return "pdf"
+    return "unknown"
+
+
 app = Flask(__name__)
 
 #允許跨域請求
@@ -307,9 +340,18 @@ def upload_file():
     # Save the file locally
     file.save(file_path)
 
-    add_document_to_db(client, db_name, file_path)
+    # 檢查檔案類型
+    file_type = get_file_type(file_path)
 
-    answer = "成功上傳檔案"
+    if file_type == "image":
+        answer = "成功上傳圖片"
+        add_document_to_db_PICTURE(client, db_name, file_path)
+
+    elif file_type == "pdf":
+        answer = "成功上傳PDF"
+        add_document_to_db_PDF(client, db_name, file_path)
+    else:
+        answer = "不支援這類型的檔案"
 
     return jsonify(answer)
 
