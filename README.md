@@ -1,6 +1,8 @@
 # AI Tutor Bootcamp 2025
 
 ## **Build Your Own AI Tutor**
+This course is inspired by Hardford CS50 paper, [Teaching CS 50 with AI](https://cs.harvard.edu/malan/publications/V1fp0567-liu.pdf). 
+[Try the CS50 ducky bot](https://cs50.ai/chat)
 #### [Find your assigned team](https://docs.google.com/spreadsheets/d/1zJ3A5tGGAmGDG4lIuX0zJPSKwJSySWqSH7619fxG-60/edit?gid=2089701332#gid=2089701332)
 Welcome to the 10-week bootcamp where you'll create AI Tutor applications using cutting-edge Generative AI technology. Let’s get started!
 
@@ -28,6 +30,12 @@ Before Week 2, complete these steps to ensure you’re ready:
 ## **Team project**
 - You will join the team of 5 assigned to you as this [Sheet](https://docs.google.com/spreadsheets/d/1zJ3A5tGGAmGDG4lIuX0zJPSKwJSySWqSH7619fxG-60/edit?gid=2089701332#gid=2089701332)
 - You will be a good team player & actively contribute to land the team project.
+##**Midterms**
+- You will be required to finish up the todos in the [codlab](https://github.com/CSEquityAI/GenAI-Tutor-Bootcamp-2025/blob/main/ragStudentToDo.ipynb), and ensure the program runs without error
+   - ToDos are as follows:
+      - Implement text splitting
+      - Connect LLM with ChromaDB
+      - Prompt Construction
 ## **Final Presentation**
 - Attendance at the final presentation on **March 1st** is mandatory.
 - The Showcase is where you and your fellow classmates will present your work. This session is essential for your completion of the program and is the only class with a mandatory attendance requirement.
@@ -61,14 +69,22 @@ Click on the links to access the slides and resources for each week. All materia
    - [Week 4 video](https://drive.google.com/file/d/1JBWOaBifOkMvDmUs8TyxOlKGBsX-_vAh/view?usp=sharing)
 - **Week 5**: [Vector Embedding and Semantic Retrieval](https://github.com/CSEquityAI/GenAI-Tutor-Bootcamp-2025/blob/main/coursePowerPoint/Week-5-Setting-up-and-basic-interactions.pdf)
    - [Week 5 video](https://drive.google.com/file/d/1n-tOStfWyqrWX2L6DspJ5u_sMQZUQlik/view?usp=sharing)
-- **Week 6**: [Advanced RAG Techniques](#)  
-- **Week 7**: [Building the AI Tutor Core](#)  
+- **Week 6**: [Buffer and Recap](https://github.com/CSEquityAI/GenAI-Tutor-Bootcamp-2025/blob/main/coursePowerPoint/Week-6-Recap-buffer.pdf)
+   - [Week 6 video](https://drive.google.com/file/d/1xIbp3LLZQETOkyaSmoX0qykLKLSq8kA2/view?usp=sharing)  
+- **Week 7**: [Meet with your coaches](#)  
 - **Week 8**: [Testing and Evaluation](#)  
 - **Week 9**: [Deployment and Scalability](#)  
 - **Week 10**: [Showcase and Presentations](#)  
 
-
-
+## Additional Resource / Refrence Materials
+- [Teaching CS 50 with AI](https://cs.harvard.edu/malan/publications/V1fp0567-liu.pdf). 
+- [CS50 ducky bot](https://cs50.ai/chat)
+- [Streamlit UI](https://docs.streamlit.io/get-started/fundamentals/main-concepts)
+- [ChromaDB](https://docs.trychroma.com/docs/overview/getting-started)
+- [Eval with RAGAS](https://docs.ragas.io/en/stable/getstarted/evals/)
+- [Gemini Documentations](https://ai.google.dev/gemini-api/docs/quickstart?lang=python)
+- [Implementing ]()
+   
 ## **FAQs**
 
 **1. Where can I access the course materials?**  
@@ -84,7 +100,7 @@ Recordings will be available for you to catch up.
 Basic Python syntax knowledge is sufficient.
 
 **5. How do I notify about absences?**  
-Email [csquityai@gmail.com](mailto:csquityai@gmail.com) at least three days in advance.
+Email [csequityai@gmail.com](mailto:csqeuityai@gmail.com) at least three days in advance.
 
 **6. Can I still access materials if I miss more than 2 sessions?**  
 Yes, you will have access to all materials.
@@ -102,7 +118,6 @@ Your coaches and mentor will attend, and the event will be open to the public.
 Yes, you will work in a group of 4–5 people, and teamwork is encouraged.
 
 ## **Support Team**
-
 - **Instructor**: Alwin Lin, Founder, CS Equity AI  
 - **Lead Coach**: Sam Lin, Tech Lead, Google  
 - **Lead Mentor**: Li-Ta Hsu, Associate Professor, Hong Kong Polytechnic University  
