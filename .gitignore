@@ -35,13 +35,14 @@ models/
 .DS_Store
 
 # Secrets or environment variables
-.env
+*.env
 *.key
 *.pem
 
 # Node.js related (if you use a frontend)
 node_modules/
 dist/
+chroma_db/
 
 # IDE/Editor specific
 .vscode/
