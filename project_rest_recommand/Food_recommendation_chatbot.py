@@ -91,7 +91,7 @@ class GeminiEmbeddingFunction(EmbeddingFunction):
     def __init__(self,
                  api_key: str,
                  model: str = "models/embedding-001",
-                 title: str = "Custom query"):
+                 title: str = "Restaurant Menu"):
         self.api_key = api_key
         self.model = model
         self.title = title
@@ -153,16 +153,28 @@ def get_relevant_passage(query: str,
 # 建構提示詞
 def make_rag_prompt(query: str, relevant_passages: List[str]) -> str:
     context = "\n\n".join(relevant_passages)
-    return f"""
-    You are an intelligent assistant. Use the following context to answer the question:
+    history = "\n".join(chat_history[-3:])  # 只保留最近 3 輪對話，避免 token 過多
 
-    Context:
+    return f"""
+    You are a thoughtful waiter. Use the following conversation history and menu information to assist the customer.
+
+    Previous Conversation:
+    {history}
+
+    Menu:
     {context}
 
-    Question:
+    Customer's Question:
     {query}
 
-    Provide a concise and accurate response.
+    IMPORTANT:
+    - If the customer is making a decision, **confirm their choice instead of recommending new dishes**.
+    - Only recommend a new dish if the customer explicitly asks for suggestions.
+    - If the customer asks about "it," infer that "it" refers to the last mentioned dish.
+    - Always answer based on the context and prior recommendations.
+    - **If the customer explicitly says "NOT" or "another" when asking for a recommendation, exclude the previously mentioned dish from the response.**
+
+    Provide a concise but friendly response.
     """
 
 
@@ -214,7 +226,16 @@ def rag_response(query, client, db_name):
     if relevant_text:
         final_prompt = make_rag_prompt(query, "".join(relevant_text))
         answer = generate_answer(final_prompt)
-        response = "\nGenerated Answer:" + answer
+        response = "Your Waiter:\n"+answer
+
+        # 更新 chat_history，保持最近的 3 輪對話
+        # 強制記錄推薦的菜品
+        if "recommend" in answer.lower():
+            chat_history.append(f"Waiter (previous recommendation): {answer}")
+        
+        chat_history.append(f"User: {query}")
+        chat_history.append(f"Your Waiter: {answer}")
+        chat_history[:] = chat_history[-6:]  # 確保 chat_history 不會過長
     else:
         response = "No relevant information found for the given query."
 
