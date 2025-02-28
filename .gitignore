@@ -43,7 +43,7 @@ models/
 # Node.js related (if you use a frontend)
 node_modules/
 dist/
-chroma_db/
+chromaDB/
 
 # IDE/Editor specific
 .vscode/

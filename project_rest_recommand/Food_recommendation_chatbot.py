@@ -247,13 +247,13 @@ def rag_response(query, client, db_name):
     if relevant_text:
         final_prompt = make_rag_prompt(query, "".join(relevant_text))
         answer = generate_answer(final_prompt)
-        response = "Your Waiter:\n"+answer
+        response = answer
 
         # 更新 chat_history，保持最近的 3 輪對話
         # 強制記錄推薦的菜品
         if "recommend" in answer.lower():
             chat_history.append(f"Waiter (previous recommendation): {answer}")
-        
+
         chat_history.append(f"User: {query}")
         chat_history.append(f"Your Waiter: {answer}")
         chat_history[:] = chat_history[-6:]  # 確保 chat_history 不會過長
@@ -341,14 +341,15 @@ db_name = None
 def respond_api():
     data = request.json
     message = data.get('user_message')
-    # 初始化 history 為空列表
-    history = []
+    history = data.get('history', [])  # 從請求中獲取歷史紀錄，若無則為空列表
 
-    # 呼叫 respond 函數，並將 message 和 history 作為參數
+    # 呼叫 respond 函數
     _, updated_history = respond(message, history)
-    bot_response = updated_history[-1][1] if updated_history else "無回應"
 
-    return jsonify({"bot_message": bot_response})
+    return jsonify({
+        "bot_message": updated_history[-1][1],
+        "history": updated_history
+    })
 
 
 @app.route('/upload', methods=['POST'])
