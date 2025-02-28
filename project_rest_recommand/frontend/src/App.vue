@@ -20,7 +20,7 @@
         :class="message.sender === 'User' ? 'bg-white text-black text-end' : 'bg-light text-start'"
         class="p-3 my-2 rounded w-75 mx-auto">
         <strong class="text-dark">{{ message.sender }}:</strong>
-        <p class="m-0">{{ message.text }}</p>
+        <p class="m-0" v-html="message.text"></p> <!-- 這裡用 v-html 來顯示解析後的 HTML -->
       </div>
     </div>
 
@@ -36,6 +36,7 @@
 
 <script>
 import axios from "axios";
+import { marked } from "marked";
 
 export default {
   data() {
@@ -54,13 +55,10 @@ export default {
       axios
         .post("http://localhost:5000/respond", { user_message: userMsg })
         .then((response) => {
-          const botMessage = response.data.bot_message
-            .split("\n")
-            .map((line) => line.trim())
-            .filter((line) => line !== "");
-          botMessage.forEach((line) => {
-            this.messages.push({ id: Date.now(), sender: "Bot", text: line });
-          });
+          const botMessage = response.data.bot_message;
+          const formattedMessage = marked(botMessage); // 解析 Markdown
+
+          this.messages.push({ id: Date.now(), sender: "Your waiter", text: formattedMessage });
         })
         .catch((error) => {
           console.error("Error sending message:", error);
